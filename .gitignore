@@ -8,3 +8,5 @@ wallet.json
 out.log
 wallet.json
 coverage/
+
+.anchor

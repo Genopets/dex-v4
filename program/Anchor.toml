@@ -1,4 +1,4 @@
-anchor_version = "0.18.2"
+anchor_version = "0.25.0"
 
 [workspace]
 members = [
@@ -6,5 +6,8 @@ members = [
 ]
 
 [provider]
-cluster = "localnet"
+cluster = "mainnet"
 wallet = "~/.config/solana/id.json"
+
+[programs.mainnet]
+dex_v4 = "srmv4uTCPF81hWDaPyEN2mLZ8XbvzuEM6LsAxR8NpjU"

@@ -14,8 +14,9 @@ pub static MSRM_MINT: Pubkey =
     solana_program::pubkey!("MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L");
 
 /// The sweep authority for the DEX program
+/// Set to SFT DAO
 pub static SWEEP_AUTHORITY: Pubkey =
-    solana_program::pubkey!("DjXsn34uz8hnC4KLiSkEVNmzqX5ZFP2Q7aErTBH8LWxe");
+    solana_program::pubkey!("CJyXckiPEfjWiynvpZw5bJyHNnfBzdeey6hEGd1aYrbN");
 
 /// The length in bytes of the callback information in the associated asset agnostic orderbook
 pub static CALLBACK_INFO_LEN: u64 = 33;
